@@ -1,0 +1,8 @@
+1-put FixedRectangularMiniMap or FixedCircularMiniMap on your canvas and move it to suitable position
+2-go to FixedMiniMap script in prefab and choose id(make sure not to have same id twice)
+3-choose map picture in map field
+4-choose area of map with x is x axis any y is z axis from lower to higher for rectangular mode or choose the map center and radius for circular mode
+5-put FixedMiniMapObject to an object you want to move in mini map
+6-choose id exist in one of mini map prefabs
+7-choose the icon of object in mini map and its size in pixels
+8-the mini map prefab will rotate with game object if rotatable is active
